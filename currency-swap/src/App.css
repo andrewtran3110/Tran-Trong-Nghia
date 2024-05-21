@@ -1,0 +1,33 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  14% { color: orange; }
+  28% { color: yellow; }
+  42% { color: green; }
+  56% { color: blue; }
+  70% { color: indigo; }
+  84% { color: violet; }
+  100% { color: red; }
+}
+
+.rainbow-text {
+  animation: rainbow 4s infinite;
+}
+
+.currency-swap-form {
+  margin-top: 20px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #4eef4e;
+}
+
